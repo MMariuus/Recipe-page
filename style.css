@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Young Serif", serif;
+    width: 100%;
+    font-size: 16px;
+}
+
+body {
+    
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.main-container {
+    background-color: hsl(330, 100%, 98%);
+    max-width: 800px;
+    width: 100%;
+    padding: 2rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.photo-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+}
+ .main-container h1 {
+    padding-top: 30px;
+    color: black;
+    font-weight: 200;
+ }
+
+ .main-container p {
+    padding-top: 25px;
+    color: hsl(30, 10%, 34%);
+ }
+
+.preparation {
+    margin-left: 40px;
+    margin-top: 25px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+.preparation h1 {
+  font-size: 20px;
+  font-weight: 400;
+  color: hsl(332, 51%, 32%);
+
+}
+.preparation ul {
+    margin-left: 25px;
+    display: grid;
+    gap: 10px;
+    color:  hsl(30, 10%, 34%);
+}
+
+.bold {
+    font-weight: bold;
+    color: hsl(0, 3%, 30%);
+  } 
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ingredients h1 {
+    color: hsl(14, 45%, 36%);
+}
+.ingredients ul {
+    margin-left: 25px;
+    display: grid;
+    gap: 10px;
+    color:  hsl(30, 10%, 34%);
+}
+
+hr {
+    margin-top: 40px;
+    border-color: hsl(330, 100%, 98%);
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.instructions h1 {
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions ol {
+    margin-left: 25px;
+    display: grid;
+    gap: 10px;
+    color:  hsl(30, 10%, 34%);
+}
+
+.bold-instruction {
+    font-weight: bold;
+    color: hsl(0, 3%, 30%);
+}
+
+ol li {
+    padding-left: 20px;
+}
+
+.nutrition h1 {
+    color: hsl(14, 45%, 36%);
+}
+
+.nutrition-colums {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 300px;
+}
+
+hr {
+    border: none;             
+    height: 1px;              
+    background-color: #ddd;    
+    width: 100%;               
+    margin: 20px 0;          
+  }
+
+  .attribution {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
